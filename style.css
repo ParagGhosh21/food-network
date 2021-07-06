@@ -4,9 +4,9 @@ body{
     padding-left: 5%;
     padding-top: 3%;
 }
-#order-food{
-    padding-left: 5%;
-    padding-top: 10%;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -42,11 +42,12 @@ h2{
     background-repeat: no-repeat;
 }
 .dream-big{
-    background-image: url(images/dream-bg.png);
+    background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: right;
+    
 }
 .experince-area{
+    text-align: center;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -65,6 +66,7 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan) 30;
     border-image-slice: 1;
+    
 
 }
 #full-stack-experince{
@@ -76,3 +78,10 @@ h2{
 footer p{
     text-align: center;
 }
+.img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10px;
+    display: flex;
+  }
