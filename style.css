@@ -17,6 +17,12 @@ h1{
 .orange-color{
     color: orange ;
 }
+.silver-color{
+    color: hsl(0, 7%, 32%);
+}
+.off-white-color{
+    color: wheat;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
@@ -59,35 +65,39 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     
-    border-radius: 20px;
+    border-radius: 30px;
 
     box-shadow: 10px 10px 40px gray;
     
 }
 #web-dev-experience {
-    border: 7px solid;
-    border-image: linear-gradient(white, white) 30;
-    border-image-slice: 1;
+    
+    
+    padding: 1%;
     border-radius: 20px;
     
 
 }
 #full-stack-experince{
-    border: 7px solid;
-    border-image: linear-gradient(white,white) 30;
-    border-image-slice: 1;
+    
+    padding: 1%;
+    
     border-radius: 20px;
 
 }
 #new{
-    border: 7px solid;
-    border-image: linear-gradient(white,white) 30;
-    border-image-slice: 1;
+    padding: 1%;
+    
+    
     border-radius: 20px;
 }
 
-footer p{
+footer {
     text-align: center;
+    background-color: black;
+    padding: 3%;
+    
+    
 }
 img {
     
@@ -101,3 +111,7 @@ img {
 body{
     box-sizing: border-box;
   }
+
+#Size{
+    font-size: 70%;
+}
