@@ -109,6 +109,9 @@ footer {
     
     
 }
+.menu{
+    margin-top: -55px;
+}
 img {
     
     border-radius: 10px;
@@ -132,18 +135,19 @@ bonus{
     border-radius: 20px;
 }
 .nav {
-    margin-top: 0%;
+  
     background-color: rgb(49, 48, 48);
     overflow: hidden;
     
 }   
 .nav a {
     float: left;
-    color: #ffffff;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
     
 }
 .nav a:hover {
@@ -151,10 +155,12 @@ bonus{
     color: black;
     
 }
+
 .nav a.act {
     
     color: white;
     
 }
+
 
 
