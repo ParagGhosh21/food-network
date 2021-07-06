@@ -44,6 +44,16 @@ h1{
     border-radius: 5px;
    
 }
+.button-extra{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(151, 149, 144), rgb(8, 8, 8) );
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+    
+}
 
 .dream-big{
     background-image: url(images/shapes/Frame\ 58.jpg);
